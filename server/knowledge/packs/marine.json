@@ -1,0 +1,38 @@
+[
+  {
+    "id": "man-overboard",
+    "title": "Man overboard response",
+    "tags": ["marine", "man overboard", "boat", "water rescue"],
+    "content": "Immediately shout 'Man overboard' and point continuously at the person in the water without looking away — this is the single most important action, since losing visual contact is the main reason recoveries fail. Throw a flotation device toward them, then turn the boat back using a controlled turn to retrace your path. Keep the person on the windward side during recovery."
+  },
+  {
+    "id": "distress-flares",
+    "title": "Using distress flares correctly",
+    "tags": ["marine", "flares", "distress", "signal", "boat"],
+    "content": "Red flares signal distress and should only be used when you need immediate rescue. Handheld flares burn about a minute; aerial flares are visible from farther away and better for attracting attention across open water. Hold flares downwind and away from the boat and your body, arm fully extended."
+  },
+  {
+    "id": "seasickness",
+    "title": "Managing seasickness",
+    "tags": ["marine", "seasickness", "nausea", "boat"],
+    "content": "Keep your eyes on the horizon and stay near the boat's center, where motion is least pronounced. Fresh air and staying hydrated help; avoid reading or looking at screens below deck. Motion sickness remedies work best when taken before symptoms start, not after."
+  },
+  {
+    "id": "capsized-boat",
+    "title": "What to do if your boat capsizes",
+    "tags": ["marine", "capsized", "boat", "water"],
+    "content": "Stay with the boat if at all possible — it's far easier for rescuers to spot than a swimmer, and most hulls stay afloat even capsized. Climb onto or hold the hull to conserve body heat and energy rather than swimming for shore, unless it's very close and clearly safer."
+  },
+  {
+    "id": "cold-water-immersion",
+    "title": "Surviving cold water immersion",
+    "tags": ["marine", "cold water", "hypothermia", "immersion"],
+    "content": "The 1-10-1 rule: roughly 1 minute to control your breathing as cold shock hits, about 10 minutes of useful muscle movement before you weaken, and around 1 hour before hypothermia becomes life-threatening for most adults. Keep clothing on for insulation, and if wearing a lifejacket, adopt the H.E.L.P. position — knees to chest, arms crossed — to conserve core heat."
+  },
+  {
+    "id": "marine-radio",
+    "title": "Calling for help on marine VHF radio",
+    "tags": ["marine", "radio", "channel 16", "distress", "vhf"],
+    "content": "VHF Channel 16 is the international marine distress and calling channel, monitored by coast guards and nearby vessels. For a life-threatening emergency, say 'Mayday' three times, then your vessel name, your position, the nature of the distress, and how many people are aboard."
+  }
+]

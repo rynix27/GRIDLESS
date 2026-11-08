@@ -1,0 +1,106 @@
+[
+  {
+    "id": "water-purify",
+    "title": "Purifying water without power",
+    "tags": [
+      "water",
+      "survival",
+      "boil",
+      "filter",
+      "purify"
+    ],
+    "content": "Best method: bring clear water to a rolling boil for at least 1 minute (3 minutes above about 2000 m altitude). If boiling isn't possible, use plain unscented household bleach (5-9% sodium hypochlorite): about 2 drops per liter of clear water (4 drops if the water is cloudy or very cold), stir, and wait 30 minutes. A cloth or coffee filter removes sediment but NOT pathogens — filter first, then purify."
+  },
+  {
+    "id": "first-aid-bleeding",
+    "title": "Controlling severe bleeding",
+    "tags": [
+      "first aid",
+      "bleeding",
+      "wound",
+      "injury",
+      "medical"
+    ],
+    "content": "Call emergency services if you can. Apply firm, direct pressure to the wound with the cleanest cloth available. If the cloth soaks through, add more on top instead of removing it. Elevate the injured limb above heart level if possible. If bleeding is life-threatening and on an arm or leg and pressure isn't controlling it, apply a tourniquet 5-7 cm above the wound (never over a joint), tighten until the bleeding stops, and note the time applied. General information, not a substitute for training or professional care."
+  },
+  {
+    "id": "hypothermia",
+    "title": "Recognizing and treating hypothermia",
+    "tags": [
+      "cold",
+      "hypothermia",
+      "shivering",
+      "temperature"
+    ],
+    "content": "Early signs: uncontrollable shivering, slurred speech, confusion. Get the person dry and insulated from the ground immediately. Warm the core (chest, neck, head, groin) before extremities. Do not give alcohol. Do not rub or massage limbs — this can send cold blood to the heart."
+  },
+  {
+    "id": "navigation-no-compass",
+    "title": "Finding direction without a compass",
+    "tags": [
+      "navigation",
+      "direction",
+      "compass",
+      "sun",
+      "stars"
+    ],
+    "content": "Shadow-stick method: place a stick upright, mark the tip of its shadow, wait 15 minutes, mark the new tip. The line between marks runs roughly east-west, with the first mark being west. At night in the northern hemisphere, locate the North Star via the Big Dipper's pointer stars."
+  },
+  {
+    "id": "signal-for-help",
+    "title": "Signaling for rescue",
+    "tags": [
+      "rescue",
+      "signal",
+      "emergency",
+      "sos",
+      "help"
+    ],
+    "content": "The international distress signal is three of anything — three fires, three whistle blasts, three flashes of light — spaced evenly. Ground-to-air signal: a large 'X' or 'SOS' made from contrasting material or trampled ground, at least 3 meters per stroke so it's visible from altitude."
+  },
+  {
+    "id": "fire-starting",
+    "title": "Starting a fire without matches",
+    "tags": [
+      "fire",
+      "matches",
+      "warmth",
+      "spark"
+    ],
+    "content": "Ferro rod + jute twine or dry bark makes reliable sparks onto fine tinder. Build a tinder nest of the driest, finest material you can find before striking. Battery + steel wool also works: touch wool across both terminals to ignite instantly — useful with a dead phone battery pack."
+  },
+  {
+    "id": "food-safety-no-fridge",
+    "title": "Keeping food safe without refrigeration",
+    "tags": [
+      "food",
+      "safety",
+      "refrigeration",
+      "spoilage"
+    ],
+    "content": "Discard perishable food (meat, poultry, fish, dairy, cut fruit, cooked leftovers) left at room temperature for more than 2 hours, or more than 1 hour if it is hotter than 90°F (32°C). During a power outage a closed refrigerator keeps food cold for about 4 hours; a full freezer for about 48 hours (24 if half full) if the door stays shut. A cooler packed with ice or frozen packs helps, and food is safe while it stays at or below 40°F (4°C). When in doubt, throw it out — you can't see, smell or taste all contamination."
+  },
+  {
+    "id": "heat-exhaustion",
+    "title": "Recognizing and treating heat exhaustion",
+    "tags": [
+      "heat",
+      "sun",
+      "dehydration",
+      "tropical",
+      "exhaustion"
+    ],
+    "content": "Heat exhaustion signs: heavy sweating, weakness, cool clammy skin, nausea, headache, dizziness. Move to shade or a cool place now, remove excess clothing, sip water slowly, and cool the body with damp cloths at the neck, wrists and armpits. Heat STROKE is a life-threatening emergency: confusion, slurred speech, fainting, seizures, or a body temperature around 104°F (40°C) or higher. Skin may be hot and dry OR the person may still be sweating heavily — do not wait for sweating to stop. Call emergency services if you can, and cool the person aggressively (cold water, wet cloths, ice packs on neck, armpits and groin) until help arrives. This is general information, not a substitute for professional care."
+  },
+  {
+    "id": "shelter-priority",
+    "title": "Shelter priorities in an emergency",
+    "tags": [
+      "shelter",
+      "camping",
+      "survival",
+      "exposure"
+    ],
+    "content": "Priority order: stop heat/cold loss from the ground first (insulation beneath you matters more than above), then wind protection, then rain. A shelter doesn't need to be large — smaller spaces retain body heat better. Face any opening away from prevailing wind."
+  }
+]

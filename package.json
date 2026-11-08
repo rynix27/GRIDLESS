@@ -1,0 +1,21 @@
+{
+  "name": "gridless",
+  "version": "1.0.0",
+  "description": "An AI assistant that never goes silent \u2014 seamlessly hybrid between cloud (OpenAI) and fully offline (local model + knowledge base).",
+  "main": "server/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "test": "node test/gridless.test.js && node test/ollama-stream.test.js",
+    "test:e2e": "node test/e2e-mesh.js",
+    "test:e2e:ollama": "node test/e2e-ollama.js",
+    "test:stream": "node test/ollama-stream.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "openai": "^4.55.0",
+    "dotenv": "^16.4.5"
+  }
+}

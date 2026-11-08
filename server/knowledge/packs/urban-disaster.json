@@ -1,0 +1,68 @@
+[
+  {
+    "id": "earthquake-response",
+    "title": "What to do during an earthquake",
+    "tags": [
+      "earthquake",
+      "urban",
+      "shelter",
+      "drop cover hold"
+    ],
+    "content": "Drop to the ground, take cover under sturdy furniture, and hold on until the shaking stops. Stay away from windows and exterior walls. If you're outdoors, move to an open area away from buildings, trees, and power lines."
+  },
+  {
+    "id": "gas-leak",
+    "title": "Responding to a suspected gas leak",
+    "tags": [
+      "gas leak",
+      "urban",
+      "evacuation",
+      "smell"
+    ],
+    "content": "If you smell gas, do not use light switches, phones, or anything that could spark. Open windows and doors if it's safe to do so, leave the building immediately, and call the gas company or emergency services from a safe distance outside."
+  },
+  {
+    "id": "power-outage",
+    "title": "Getting through an extended power outage",
+    "tags": [
+      "power outage",
+      "blackout",
+      "urban",
+      "electricity"
+    ],
+    "content": "Keep refrigerator and freezer doors closed: a closed fridge keeps food cold about 4 hours; a full freezer about 48 hours (24 if half full). Use flashlights instead of candles to reduce fire risk, and unplug sensitive electronics to avoid a surge when power returns. NEVER run a generator, grill, camp stove or car inside a home or garage — carbon monoxide is odorless and deadly; keep them well away from windows and doors."
+  },
+  {
+    "id": "building-collapse-aftermath",
+    "title": "If you're trapped after a structural collapse",
+    "tags": [
+      "building collapse",
+      "trapped",
+      "urban",
+      "rescue"
+    ],
+    "content": "Tap on a pipe or wall in bursts of three rather than shouting continuously, to conserve energy and air while still signaling your location to rescuers. Cover your mouth with cloth to limit dust inhalation, and move as little as possible to avoid disturbing unstable debris."
+  },
+  {
+    "id": "water-main-advisory",
+    "title": "Handling a boil-water advisory",
+    "tags": [
+      "water main",
+      "boil advisory",
+      "urban",
+      "contamination"
+    ],
+    "content": "After a water main break or a boil-water advisory, boil tap water for at least one minute before drinking, cooking, or brushing teeth. Bottled water is a safe alternative if boiling isn't possible."
+  },
+  {
+    "id": "urban-shelter-in-place",
+    "title": "Sheltering in place during an outside hazard",
+    "tags": [
+      "shelter in place",
+      "urban",
+      "hazard",
+      "air quality"
+    ],
+    "content": "Close and lock windows and doors, turn off ventilation and air conditioning, and move to an interior room with the fewest windows. If the hazard is airborne, seal gaps under doors with a damp towel."
+  }
+]

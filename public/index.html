@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GridLess</title>
+<meta name="theme-color" content="#13100E" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="rig">
+
+    <!-- FIELD KIT SIDEBAR -->
+    <aside class="kit">
+      <div class="kit-head">
+        <div class="unit-name">GRIDLESS</div>
+        <div class="unit-sub">field unit 01</div>
+      </div>
+
+      <div class="signal-block">
+        <div class="signal-label">connection</div>
+        <div class="signal-meter" id="signalMeter">
+          <span class="bar" data-bar="1"></span>
+          <span class="bar" data-bar="2"></span>
+          <span class="bar" data-bar="3"></span>
+          <span class="bar" data-bar="4"></span>
+        </div>
+        <div class="signal-readout" id="signalReadout">checking…</div>
+        <div class="signal-sub" id="signalSub">&nbsp;</div>
+      </div>
+
+      <div class="mode-block">
+        <div class="mode-row">
+          <span class="dot" id="modeDot"></span>
+          <span class="mode-text" id="modeText">standby</span>
+        </div>
+      </div>
+
+      <div class="ai-block">
+        <div class="ref-label">local AI (offline brain)</div>
+        <div class="ai-status" id="aiStatus" role="status">checking…</div>
+        <label class="demo-toggle">
+          <input type="checkbox" id="offlineOnlyToggle" />
+          <span>offline AI only (skip cloud &amp; mesh)</span>
+        </label>
+        <label class="demo-toggle">
+          <input type="checkbox" id="useKnowledgeToggle" checked />
+          <span>use stored reference as context</span>
+        </label>
+        <div class="demo-hint">untick the second box to test the model on its own pretrained knowledge</div>
+      </div>
+
+      <div class="mesh-block">
+        <div class="ref-label">mesh network</div>
+        <div class="mesh-status" id="meshStatus">scanning local network…</div>
+        <div class="mesh-peers" id="meshPeers"></div>
+      </div>
+
+      <div class="gps-block" id="gpsBlock">
+        <div class="ref-label">location context</div>
+        <div class="gps-readout" id="gpsReadout">requesting GPS…</div>
+      </div>
+
+      <div class="demo-block">
+        <label class="demo-toggle">
+          <input type="checkbox" id="demoToggle" />
+          <span>simulate total signal loss</span>
+        </label>
+        <div class="demo-hint">forces the offline path — no need to unplug anything to test it</div>
+      </div>
+
+      <div class="ref-block">
+        <div class="ref-label-row">
+          <div class="ref-label">offline reference</div>
+          <select id="packSelect" class="pack-select"></select>
+        </div>
+        <div class="ref-list" id="refList">
+          <div class="ref-loading">loading topics…</div>
+        </div>
+      </div>
+
+      <div class="power-block">
+        <label class="demo-toggle">
+          <input type="checkbox" id="lowPowerToggle" />
+          <span>low power mode</span>
+        </label>
+        <div class="demo-hint" id="powerHint">shorter answers, less battery — flip manually, or it'll suggest itself if your battery reports low</div>
+      </div>
+
+      <div class="sos-block">
+        <div class="sos-label">emergency broadcast</div>
+        <input id="sosMessage" class="sos-input" type="text" maxlength="200" placeholder="what do you need? (e.g. need water)" />
+        <button id="sosSendBtn" class="sos-send">SEND SOS</button>
+        <div class="sos-hint">broadcasts to GridLess devices on this local network — no AI or internet required. Delivery is shown honestly: receipts appear below only when another device confirms.</div>
+        <div class="sos-status" id="sosStatus" role="status" aria-live="polite"></div>
+        <div class="sos-alerts" id="sosAlerts"></div>
+      </div>
+
+      <div class="kit-foot">
+        built for zero signal.<br/>local AI + offline guide when the cloud is gone.
+      </div>
+    </aside>
+
+    <!-- MAIN TRANSCRIPT -->
+    <main class="deck">
+      <div class="transcript" id="transcript">
+        <div class="log-entry system">
+          <div class="log-meta">SYSTEM · 00:00:00</div>
+          <div class="log-body">
+            GridLess online. Ask anything — routing adapts automatically between
+            cloud reasoning, peer relay, a local AI model (Ollama), and — only if no AI is
+            available — a clearly labelled stored reference guide.
+          </div>
+        </div>
+      </div>
+
+      <form class="tx-form" id="txForm">
+        <input
+          id="tx"
+          class="tx-input"
+          type="text"
+          autocomplete="off"
+          placeholder="transmit a message…"
+        />
+        <button class="tx-send" type="submit">SEND</button>
+      </form>
+    </main>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

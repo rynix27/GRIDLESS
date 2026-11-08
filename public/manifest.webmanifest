@@ -1,0 +1,11 @@
+{
+  "name": "GridLess",
+  "short_name": "GridLess",
+  "description": "AI assistant that keeps working when the internet doesn't.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#13100E",
+  "theme_color": "#13100E",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
