@@ -19,7 +19,7 @@ answers questions that match its (small, curated) guide — otherwise GridLess s
 plainly (HTTP 503) instead of making something up. Layer 2 needs Ollama installed with a
 model pulled. The mesh is same-network peer discovery, not Bluetooth or multi-hop routing.
 
-## Quick start (Windows / Mac / Linux, $0)
+## Quick start (Windows / Mac / Linux)
 
 ```bash
 npm install
